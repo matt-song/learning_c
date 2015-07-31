@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    char array[] = "test string";
+    
+    puts("change value in double quota");
+    array[1] = "_";
+    puts(array);
+
+    puts("change vale in single quota");
+    array[2] = '_';
+    puts(array);
+}
+
+
