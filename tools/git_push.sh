@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cd ../
+FOLDER="~/c_code/"
+cd $FOLDER
 
 git add *
 git commit -m "message"
