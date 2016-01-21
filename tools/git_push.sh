@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FOLDER="~/c_code/"
+FOLDER="/home/matt/c_code"
 cd $FOLDER
 
 git add *
