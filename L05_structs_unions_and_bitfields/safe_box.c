@@ -22,6 +22,10 @@ int main()
 	safe s = {numbers, "RAMACON250"};
 
 	printf("the password is [%s]\n", s.numbers.sequence);
+	
+	// below 2 are equal
+	printf("the gold is [%s]\n", (*s.numbers.swag).description);
+	printf("the gold is [%s]\n", s.numbers.swag->description);
 }
 
 
